@@ -2,6 +2,14 @@
 #include <iostream>
 using Number = double;
 
+enum class Operators : char
+{
+	Add = '+', Minus = '-', Multiple = '*',
+	Division = '/', Pow = '^', Equal = '=',
+	Save = 's', Load = 'l', Set = ':',
+	Clear = 'c', Negative = 'n', Quit = 'q'
+};
+
 class calculator
 {
 private:
