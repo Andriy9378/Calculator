@@ -1,14 +1,6 @@
 #include <iostream>
 #include "calculator.h"
 
-enum class Operators : char
-{
-	Add = '+', Minus = '-', Multiple = '*',
-	Division = '/', Pow = '^', Equal = '=',
-	Save = 's', Load = 'l', Set = ':',
-	Clear = 'c', Negative = 'n', Quit = 'q'
-};
-
 bool RunCalculatorCycle();
 bool ReadNumber(Number& result);
 
